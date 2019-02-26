@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Rental.Services
 {
-    public class BrazilTaxService
+    public class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
